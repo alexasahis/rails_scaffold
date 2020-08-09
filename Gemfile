@@ -30,6 +30,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 ##
 gem 'devise'
+gem 'bootstrap-sass'
 ##
 
 group :development, :test do
