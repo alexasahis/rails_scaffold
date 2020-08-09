@@ -1,6 +1,8 @@
-<h1>Editing Group</h1>
+<div class="col-md-4 col-md-offset-4">
+  <h2>Editing Group</h2>
 
-<%= render 'form', group: @group %>
+  <%= render 'form', group: @group %>
 
-<%= link_to 'Show', @group %> |
-<%= link_to 'Back', groups_path %>
+  <%= link_to('Show', @group, class: "btn btn-sm btn-default" )%> 
+  <%= link_to('Index', groups_path, class: "btn btn-sm btn-default" )%>
+</div>
